@@ -205,3 +205,45 @@ main {
     font-weight: 400;
     line-height: normal;
 }
+
+.herosec_div1 {
+    display: flex;
+    width: 358px;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin-top: 415px;
+    margin-left: 185px;
+}
+
+.hero_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 52px;
+    background: var(--main_orange_color);
+    padding: 13.099px 58px 9.767px 59px;
+}
+
+.hero_button_text {
+    color: #13140E;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #13140E;
+    font-family: 'AGA';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.herosec_div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero_button:hover {
+    cursor: pointer;
+    background: var(--main_blue_color)
+}
