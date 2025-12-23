@@ -332,3 +332,90 @@ main {
 #text8 {
     white-space: pre-line;
 }
+
+.section4 {
+    display: flex;
+    width: 1280px;
+    padding: 161px 94.31px 161.204px 94px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main_blue_color);
+}
+
+.sec4_div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+}
+
+.sec4_div2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.sec4_div3 {
+    display: flex;
+    width: 338.796px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25.623px;
+    background: var(--main_orange_color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.sec4_div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    height: 100%;
+}
+
+.sec4_div5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.section4 h1 {
+    color: var(--main_white_color)
+}
+
+.section4_icon {
+    width: 86px;
+    height: 86px;
+}
+
+.sec4_div3:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    background: var(--main_orange_color);
+}
+
+.sec4_div3:hover h2,
+.sec4_div3:hover h4 {
+    color: var(--main_white_color);
+}
+
+.sec4_div3:hover .section4_icon {
+    transform: scale(1.15);
+}
+
+.sec4_div4 h2,
+.sec4_div4 h4 {
+    transition: color 0.4s ease;
+}
+
+.section4_icon {
+    width: 86px;
+    height: 86px;
+    transition: transform 0.4s ease;
+}

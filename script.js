@@ -29,3 +29,41 @@ document.getElementById("text7").innerHTML = "عماله الاطفال تسلب
 document.getElementById("text8").innerHTML = `الزراعة 62%
 الخدمات 18%
 الصناعة 14%`;
+
+document.getElementById("text9").innerHTML = "الأرقام تحكي القصة";
+
+const section4Cards = [{
+        icon: "Assets/danger icon.svg",
+        title: "70%",
+        description: "يعملون في ظروف خطرة"
+    },
+    {
+        icon: "Assets/people icon.svg",
+        title: "1 من كل 11",
+        description: "طفل يعمل فى مصر"
+    },
+    {
+        icon: "Assets/uil_18-plus.svg",
+        title: "4.05%",
+        description: "من الاطفال اقل من 18"
+    }
+];
+const cardsContainer = document.querySelector('.sec4_div2');
+
+if (cardsContainer) {
+    cardsContainer.innerHTML = '';
+
+    for (let i = 0; i < section4Cards.length; i++) {
+        cardsContainer.innerHTML += `
+            <div class="sec4_div3">
+                <div class="sec4_div4">
+                    <img class="section4_icon" src="${section4Cards[i].icon}" alt="">
+                    <div class="sec4_div5">
+                        <h2>${section4Cards[i].title}</h2>
+                        <h4>${section4Cards[i].description}</h4>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+}
