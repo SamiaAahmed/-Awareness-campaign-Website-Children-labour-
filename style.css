@@ -419,3 +419,130 @@ main {
     height: 86px;
     transition: transform 0.4s ease;
 }
+
+.section5 {
+    display: flex;
+    width: 1280px;
+    padding: 107px 54px 108px 54px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5_div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.section5_div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.arrow-lift_icon,
+.arrow-right_icon {
+    width: 77px;
+    height: 77px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.arrow-lift_icon img {
+    width: 60px;
+    height: 60px;
+    transform: rotate(180deg);
+    /* Flip to point left */
+    transition: all 0.3s ease;
+}
+
+.arrow-right_icon img {
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ease;
+}
+
+.arrow-lift_icon:hover img,
+.arrow-right_icon:hover img {
+    transform: scale(1.2);
+}
+
+.arrow-lift_icon:hover img {
+    transform: scale(1.2) rotate(180deg);
+    /* Keep rotation on hover */
+}
+
+.section5_div3 {
+    width: 958px;
+    height: 578px;
+    border-radius: 25.623px;
+    display: flex;
+    align-items: center;
+    background: var(--main_orange_color);
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.section5_div4 {
+    display: flex;
+    width: 369px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+    margin-right: 50px;
+}
+
+.section5_img {
+    width: 479px;
+    height: 578px;
+    object-fit: cover;
+    border-radius: 26px 0 0 26px;
+}
+
+.h1_2 {
+    color: #F8F9FA;
+    text-align: right;
+    font-family: 'DG';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_2 {
+    display: flex;
+    width: 368px;
+    padding: 13px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 26px;
+    background: var(--main_white_color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button_2:hover {
+    transform: scale(1.05);
+}
+
+.button_2 h5 {
+    color: var(--main_orange_color);
+}
+
+.h4_2 {
+    text-align: right;
+    color: var(--main_white_color);
+    line-height: 1.6;
+}
+
+.section5 h1 {
+    color: var(--main_orange_color);
+    text-align: center;
+}
