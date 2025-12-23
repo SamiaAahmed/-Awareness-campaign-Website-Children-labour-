@@ -1,0 +1,207 @@
+:root {
+    --main_white_color: #F8F9FA;
+    --main_blue_color: #4ECDC4;
+    --main_orange_color: #F99413;
+    --main_black_color: #13140E;
+}
+
+@font-face {
+    font-family: 'DG';
+    src: url('Fonts/DGEnab-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'AGA';
+    src: url('Fonts/Cairo-VariableFont_slnt\,wght.ttf');
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1 {
+    color: var(--main_white_color);
+    font-family: 'DG';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80.099px;
+}
+
+h2 {
+    color: var(--main_white_color);
+    text-align: right;
+    font-family: 'AGA';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h2-2 {
+    color: var(--main_orange_color);
+    font-family: 'DG';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    color: var(--main_orange_color);
+    font-family: 'DG';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4 {
+    color: var(--main_white_color);
+    text-align: center;
+    font-family: 'AGA';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h5 {
+    color: var(--main_orange_color);
+    font-family: 'AGA';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h6 {
+    color: var(--main_white_color);
+    font-family: 'AGA';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body {
+    margin: 0;
+    background-color: var(--main_white_color);
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_sec {
+    width: 1280px;
+    height: 829px;
+    background-image: url('Assets/Hero Image.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header {
+    width: 1180px;
+    padding: 10px 70px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main_blue_color);
+    border-radius: 57px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 34px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav__link {
+    color: var(--main_white_color);
+    text-decoration: none;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #FFF;
+    font-family: 'AGA';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav__link_active {
+    color: var(--main_orange_color);
+    text-decoration: none;
+    font-family: 'AGA';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav__logo {
+    width: 79.482px;
+    height: 36px;
+}
+
+.nav_buttons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.nav_circle-button {
+    background-color: var(--main_white_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36.973px;
+    height: 36.973px;
+    border-radius: 34.663px;
+}
+
+.nav_button {
+    background-color: var(--main_white_color);
+    border-radius: 45px;
+    display: flex;
+    padding: 8px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.login_button {
+    color: var(--main_blue_color);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #5EDDD4;
+    font-family: 'AGA';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
