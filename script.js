@@ -71,3 +71,6 @@ document.getElementById("text10").innerHTML = "محمود عبد العال";
 document.getElementById("text11").innerHTML = `بدأ محمود وعبد العال العمل قبل سن الخامسة عشرة، وهو ما يعد انتهاكًا للمادة 64 من قانون الطفل. تنص المادة 97 من نفس القانون على تشكيل "لجنة عامة لحماية الطفولة" في كل محافظة.`;
 document.getElementById("text12").innerHTML = "اعرف المزيد";
 document.getElementById("text13").innerHTML = "قصص من الواقع";
+document.getElementById("text14").innerHTML = "@2025. جميع الحقوق محفوظة";
+document.getElementById("text15").innerHTML = "سياسة الخصوصية";
+document.getElementById("text16").innerHTML = "شروط الخدمة";
