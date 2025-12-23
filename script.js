@@ -78,3 +78,27 @@ document.getElementById("text16").innerHTML = "شروط الخدمة";
 document.getElementById("text1").addEventListener("click", function() {
     window.location.href = "login.html";
 });
+
+const heroImages = [
+    'Assets/Hero Image.jpg',
+    'Assets/Hero Image2.png',
+    'Assets/Hero Image3.png'
+]
+
+function setRandomHeroImage() {
+    const randomIndex = Math.floor(Math.random() * heroImages.length);
+    const heroSection = document.querySelector('.hero_sec');
+    heroSection.style.backgroundImage = `url('${heroImages[randomIndex]}')`;
+}
+setRandomHeroImage();
+
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
+
+window.addEventListener('DOMContentLoaded', function() {
+    const circleButtons = document.querySelectorAll('.nav_circle-button');
+    if (circleButtons.length >= 1) {
+        circleButtons[0].addEventListener('click', toggleDarkMode);
+    }
+});
