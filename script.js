@@ -74,3 +74,7 @@ document.getElementById("text13").innerHTML = "قصص من الواقع";
 document.getElementById("text14").innerHTML = "@2025. جميع الحقوق محفوظة";
 document.getElementById("text15").innerHTML = "سياسة الخصوصية";
 document.getElementById("text16").innerHTML = "شروط الخدمة";
+
+document.getElementById("text1").addEventListener("click", function() {
+    window.location.href = "login.html";
+});
