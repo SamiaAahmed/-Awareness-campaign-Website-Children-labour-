@@ -102,3 +102,11 @@ window.addEventListener('DOMContentLoaded', function() {
         circleButtons[0].addEventListener('click', toggleDarkMode);
     }
 });
+window.addEventListener('DOMContentLoaded', function() {
+    const preloader = document.querySelector('.preloader');
+    if (preloader) {
+        setTimeout(function() {
+            preloader.classList.add('hide');
+        }, 500);
+    }
+});
