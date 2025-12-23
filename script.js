@@ -23,3 +23,9 @@ document.getElementById("text5").addEventListener("click", function() {
         isExpanded = true;
     }
 });
+
+document.getElementById("text6").innerHTML = "الإحصائيات تشرح الواقع";
+document.getElementById("text7").innerHTML = "عماله الاطفال تسلب 1.6 مليون طفل من طفولتهم من ما يعادل 9% من الاطفال فى مصر";
+document.getElementById("text8").innerHTML = `الزراعة 62%
+الخدمات 18%
+الصناعة 14%`;
